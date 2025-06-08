@@ -1,0 +1,6 @@
+services:
+  test:
+    build: .
+    environment:
+    - FINVIZ_USERNAME=${FINVIZ_USERNAME}
+    - FINVIZ_PASSWORD=${FINVIZ_PASSWORD}
